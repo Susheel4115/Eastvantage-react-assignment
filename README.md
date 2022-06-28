@@ -9,3 +9,22 @@
 - No hot reload of web page.
 - Component will re-render only when there is a change in data from api end point.
 - Maximised the performance of application.
+
+## Installation
+
+app requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd Eastvantage-react-assignment
+npm install
+npm start
+```
+
+For production environments...
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
