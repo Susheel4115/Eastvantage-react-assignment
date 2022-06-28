@@ -28,3 +28,8 @@ For production environments...
 npm install --production
 NODE_ENV=production node app
 ```
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
