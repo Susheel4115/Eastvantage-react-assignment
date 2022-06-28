@@ -23,7 +23,8 @@ function App() {
   //in my tsx I am using map function over the results array
   //in the tsx part when I want to access the deeply nested child I have to iterate over the array
   //I am setting local storage as a seperate functionality so that viwer can able to differentiate when data has to
-  //fetch and when he/she can set the localstorage to mail
+  //fetch and when he/she can set the localstorage to mail.
+  //here el=(el:any) is the type passing to map function.
   return (
     <div className="App">
       <p className="title">"Custom Hook for data fetching asynchronusly"</p>
