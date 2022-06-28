@@ -31,11 +31,7 @@ function App() {
       <div className="items">
         {data.results.map((el: any) => (
           <div className="item" key={el.login.uuid}>
-            <img
-              className="image"
-              src={el.gender === "male" ? male : female}
-              alt="pic"
-            ></img>
+            <img className="image1" src={el.picture.large} alt="pic"></img>
 
             <p className="item__heading">
               Name: {el.name.first} {el.name.last}
