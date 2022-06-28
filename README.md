@@ -32,11 +32,11 @@ NODE_ENV=production node app
 ## Tech
 
 
-- [Typescript] - tsx->jsx->es5!
-- [vs code Editor] - awesome web-based text editor
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [useCallback hook] - data fectching mechanism defines here
+- Typescript - tsx->jsx->es5!
+- vs code Editor - awesome web-based text editor
+- Twitter Bootstrap - great UI boilerplate for modern web apps
+- node.js - evented I/O for the backend
+- useCallback hook - data fectching mechanism defines here
 
   
   
