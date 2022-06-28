@@ -1,6 +1,6 @@
-# Getting Started with Create React App and typescript template.🐱‍💻🐱‍💻
+# Getting Started with Create React App and typescript template.🐱‍💻
 
-# Axios is a simple promise based HTTP client for the browser and node.js.🕸
+# Created a custom hook to fetch async data from Api endpoint using useCallback and useState hooks to leverage the usage of types and interface.🌀
 
 ## Features
 
@@ -9,6 +9,7 @@
 - No hot reload of web page.
 - Component will re-render only when there is a change in data from api end point.
 - Maximised the performance of application.
+- Axios is a simple promise based HTTP client for the browser and node.js.🕸
 
 ## Installation
 
