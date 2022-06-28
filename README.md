@@ -1,4 +1,4 @@
-# Getting Started with Create React App with typescript template.🐱‍💻🐱‍💻
+# Getting Started with Create React App and typescript template.🐱‍💻🐱‍💻
 
 # Axios is a simple promise based HTTP client for the browser and node.js.🕸
 
