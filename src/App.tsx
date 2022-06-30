@@ -1,16 +1,13 @@
 import React from "react";
 import useApiFetch from "./hooks/useApiFetch"; //created custom hook from "useApiFetch fil"
-import { useLocalStorage } from "usehooks-ts"; //custom hook from hooks-ts
 import "./App.css";
-import male from "./images/male.png";
-import female from "./images/female.png";
+
 function App() {
   const { error, data, revalidate } = useApiFetch({
     url: "https://randomuser.me/api",
   });
 
-  //state variaables from useLocalStorage hook
-  const [localStorage, setLocalstorage] = useLocalStorage("User data", {});
+  //for storing data in locall storage.
 
   if (!data) {
     return <h2>Loading...</h2>;
@@ -19,6 +16,8 @@ function App() {
   if (error) {
     return <h2>Error fetching users</h2>;
   }
+
+  localStorage.setItem("User data", JSON.stringify(data));
 
   //in my tsx I am using map function over the results array
   //in the tsx part when I want to access the deeply nested child I have to iterate over the array
@@ -33,21 +32,12 @@ function App() {
         {data.results.map((el: any) => (
           <div className="item" key={el.login.uuid}>
             <img className="image1" src={el.picture.large} alt="pic"></img>
-
             <p className="item__heading">
               Name: {el.name.first} {el.name.last}
             </p>
             <p>Email : {el.email}</p>
             <button className="validate" onClick={revalidate}>
               <span>fetch user</span>
-            </button>
-            <button
-              onClick={() => {
-                setLocalstorage(el.email);
-              }}
-              className="btn"
-            >
-              <span>set local storage</span>
             </button>
           </div>
         ))}
