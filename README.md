@@ -57,4 +57,4 @@ NODE_ENV=production node app
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Free Software**
