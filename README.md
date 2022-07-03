@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 ## Features
 
-- There is one buttons for data fetching and setting the local storage key and values as JSON object.
+- There is one button for data fetching and setting the local storage.
 - profile pic for instace data maybe he/she.
 - No hot reload of web page.
 - Component will re-render only when there is a change in data from api end point.
