@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 ## Features
 
-- Two buttons for data fetching and setting the local storage key and values as "email:<useremail>".
+- There is one buttons for data fetching and setting the local storage key and values as JSON object.
 - profile pic for instace data maybe he/she.
 - No hot reload of web page.
 - Component will re-render only when there is a change in data from api end point.
@@ -47,10 +47,8 @@ NODE_ENV=production node app
 ## Tech
 
 
-- Typescript - for duck typing!
+- Typescript - TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces. One of the big benefits is to enable IDEs to provide a richer environment for spotting common errors as you type the code.
 - vs code Editor - awesome web-based text editor
-- Twitter Bootstrap - great UI boilerplate for modern web apps
-- node.js - evented I/O for the backend
 - useCallback hook - data fectching mechanism defines here
 
   
